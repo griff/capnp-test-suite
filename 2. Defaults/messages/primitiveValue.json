@@ -1,0 +1,1 @@
+{"voidField": null, "boolField": false, "int8Field": -55, "int16Field": 3656, "int32Field": -78961234, "int64Field": "5678342345678", "uInt8Field": 67, "uInt16Field": 2345, "uInt32Field": 567666012, "uInt64Field": "347778901234567890", "float32Field": -1.2600000209861406e-10, "float64Field": 385, "enumField": "foo"}

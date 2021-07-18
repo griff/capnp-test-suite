@@ -1,0 +1,6 @@
+*** ERROR CONVERTING PREVIOUS MESSAGE ***
+The following error occurred while converting the message above.
+This probably means the input data is invalid/corrupted.
+Exception description: expected tag->structRef.ptrCount.get() > ZERO * POINTERS; Expected a pointer list, but got a list of data-only structs.
+Code location: capnp/layout.c++:2326
+*** END ERROR ***

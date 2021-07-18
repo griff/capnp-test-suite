@@ -1,0 +1,6 @@
+*** ERROR CONVERTING PREVIOUS MESSAGE ***
+The following error occurred while converting the message above.
+This probably means the input data is invalid/corrupted.
+Exception description: Found struct list where bit list was expected; upgrading boolean lists to structs is no longer supported.
+Code location: capnp/layout.c++:2305
+*** END ERROR ***

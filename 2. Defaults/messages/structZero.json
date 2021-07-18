@@ -1,0 +1,6 @@
+{ "structField": {
+    "voidField": null,
+    "boolField": true,
+    "textField": "nested",
+    "structField": {"voidField": null, "boolField": true, "textField": "really nested"} },
+  "emptyStructField": {} }

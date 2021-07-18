@@ -1,0 +1,5 @@
+{ "structList": [
+    {"voidField": null, "boolField": true, "textField": "x structlist 1"},
+    {"voidField": null, "boolField": true, "textField": "x structlist 2"},
+    {"voidField": null, "boolField": true, "textField": "x structlist 3"} ],
+  "emptyStructList": [{}, {}, {}] }

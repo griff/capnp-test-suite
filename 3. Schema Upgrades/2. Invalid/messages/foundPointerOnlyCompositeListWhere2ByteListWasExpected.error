@@ -1,0 +1,6 @@
+*** ERROR CONVERTING PREVIOUS MESSAGE ***
+The following error occurred while converting the message above.
+This probably means the input data is invalid/corrupted.
+Exception description: expected tag->structRef.dataSize.get() > ZERO * WORDS; Expected a primitive list, but got a list of pointer-only structs.
+Code location: capnp/layout.c++:2315
+*** END ERROR ***

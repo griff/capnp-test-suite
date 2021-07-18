@@ -1,0 +1,6 @@
+{ "structField": {
+    "voidField": null,
+    "boolField": false,
+    "textField": "tested",
+    "structField": {"voidField": null, "boolField": false, "textField": "really tested"} },
+  "emptyStructField": {} }
