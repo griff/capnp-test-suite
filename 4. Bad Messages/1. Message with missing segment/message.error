@@ -1,0 +1,6 @@
+*** ERROR CONVERTING PREVIOUS MESSAGE ***
+The following error occurred while converting the message above.
+This probably means the input data is invalid/corrupted.
+Exception description: expected n >= minBytes; Premature EOF
+Code location: kj/io.c++:53
+*** END ERROR ***

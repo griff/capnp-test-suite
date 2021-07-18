@@ -1,0 +1,15 @@
+{
+    "foundDataOnlyCompositeListWherePointerListWasExpected": "FoundDataOnlyCompositeListWherePointerListWasExpected",
+    "foundVoidListWhereCompositeListWasExpected" :"FoundVoidListWhereCompositeListWasExpected",
+    "foundByteListWhereCompositeListWasExpected": "FoundByteListWhereCompositeListWasExpected",
+    "found2ByteListWhereCompositeListWasExpected": "Found2ByteListWhereCompositeListWasExpected",
+    "found4ByteListWhereCompositeListWasExpected": "Found4ByteListWhereCompositeListWasExpected",
+    "found8ByteListWhereCompositeListWasExpected": "Found8ByteListWhereCompositeListWasExpected",
+    "foundCompositeListWhereBitListWasExpected": "FoundCompositeListWhereBitListWasExpected",
+    "foundPointerOnlyCompositeListWhereVoidListWasExpected": "FoundPointerOnlyCompositeListWhereVoidListWasExpected",
+    "foundPointerOnlyCompositeListWhereByteListWasExpected": "FoundPointerOnlyCompositeListWhereByteListWasExpected",
+    "foundPointerOnlyCompositeListWhere2ByteListWasExpected": "FoundPointerOnlyCompositeListWhere2ByteListWasExpected",
+    "foundPointerOnlyCompositeListWhere4ByteListWasExpected": "FoundPointerOnlyCompositeListWhere4ByteListWasExpected",
+    "foundPointerOnlyCompositeListWhere8ByteListWasExpected": "FoundPointerOnlyCompositeListWhere8ByteListWasExpected",
+    "foundListOfPointersWhereDataOnlyStructListWasExpected": "FoundListOfPointersWhereDataOnlyStructListWasExpected"
+}

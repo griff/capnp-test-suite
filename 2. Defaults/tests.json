@@ -1,0 +1,12 @@
+{
+  "primitiveZero": "TestPrimitiveType",
+  "primitiveValue": "TestPrimitiveType",
+  "listZero": "TestListType",
+  "listValue": "TestListType",
+  "structZero": "TestStructType",
+  "structValue": "TestStructType",
+  "listListZero": "TestListListType",
+  "listListValue": "TestListListType",
+  "structListZero": "TestStructListType",
+  "structListValue": "TestStructListType"
+}

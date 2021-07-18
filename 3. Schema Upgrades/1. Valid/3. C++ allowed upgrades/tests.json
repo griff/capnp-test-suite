@@ -1,0 +1,8 @@
+{
+    "foundCompositeListWherePointerListExpected": "FoundCompositeListWherePointerListExpected",
+    "foundCompositeListWhereVoidListExpected": "FoundCompositeListWhereVoidListExpected",
+    "foundCompositeListWhereByteListExpected": "FoundCompositeListWhereByteListExpected",
+    "foundCompositeListWhere2ByteListExpected": "FoundCompositeListWhere2ByteListExpected",
+    "foundCompositeListWhere4ByteListExpected": "FoundCompositeListWhere4ByteListExpected",
+    "foundCompositeListWhere8ByteListExpected": "FoundCompositeListWhere8ByteListExpected"
+}

@@ -1,0 +1,9 @@
+{
+    "expectedStructListFoundVoidList": "ExpectedStructListFoundVoidList",
+    "expectedStructListFoundByteList": "ExpectedStructListFoundByteList",
+    "expectedStructListFound2ByteList": "ExpectedStructListFound2ByteList",
+    "expectedStructListFound4ByteList": "ExpectedStructListFound4ByteList",
+    "expectedStructListFound8ByteList": "ExpectedStructListFound8ByteList",
+    "expectedStructListFoundDataList": "ExpectedStructListFoundDataList",
+    "expectedStructListFoundListOfLists": "ExpectedStructListFoundListOfLists"
+}

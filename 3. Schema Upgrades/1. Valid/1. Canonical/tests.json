@@ -1,0 +1,8 @@
+{
+    "addFieldToStruct": "AddFieldToStruct",
+    "addEnumerant": "AddEnumerant",
+    "replaceFieldWithUnion": "ReplaceFieldWithUnion",
+    "replaceFieldWithGroup": "ReplaceFieldWithGroup",
+    "makeNonGenericTypeGeneric": "MakeNonGenericTypeGeneric",
+    "addGenericParameterToExistingGenericType": "AddGenericParameterToExistingGenericType"
+}
