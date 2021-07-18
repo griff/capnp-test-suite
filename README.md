@@ -1,5 +1,6 @@
 # Cap'n Proto test messages
 
+## General file structure
 
 `schema.capnp`
 The schema you should use when reading messages
@@ -142,3 +143,22 @@ These fall mostly in two categories:
   8. [ ] Root object is list pointer
   9. [ ] Root object is far pointer
   10. [ ] Root object is capability pointer
+
+## Rebuilding messages
+
+The Cap'n Proto messages are included in the repository pre-built but
+if for some reason you need to rebuild them you can do so using the included
+`Makefile` and `capnp`.
+
+To delete existing messages:
+
+```
+make clean
+```
+
+To build messages:
+
+````
+make -k
+````
+
