@@ -37,10 +37,13 @@ Not all the messages described in this list are implemented in this repository y
 marked by them not having a checkmark.
 
 These fall mostly in two categories:
+
 1) Interface related and so are not supported by the `capnp` tool.
 2) Badly structured messages that again are not possible to use the `capnp` tool to create.
 
-1. [ ] Reading all datatypes
+
+### 1. Reading all datatypes
+
   - [x] Void field
   - [x] Bool field
   - [x] Int8 field
@@ -77,7 +80,8 @@ These fall mostly in two categories:
   - [x] Zero size struct list
   - [x] Enum list
   - [ ] Interface list
-2. [x] Defaults
+
+### 2. Defaults
   - [x] Primitive field defaults
   - [x] Struct default
   - [x] List defaults
@@ -86,63 +90,72 @@ These fall mostly in two categories:
     - [x] Text default
     - [x] List of lists
     - [x] Struct list
-3. [ ] Schema upgrades
-  1. [ ] Valid
-    1. [ ] Canonical
-      - [x] Add field to existing struct
-      - [x] Add enumerant to existing enum
-      - [ ] Add method to interface
-      - [ ] Add new parameter to method (must be at end and have default value)
-      - [x] Replace field with union
-      - [x] Replace field with group
-      - [x] Make non-genric type generic
-      - [x] Add generic parameter to existing generic type
-    2. [x] Backwards compatible
-      - [x] Expected composite list found other list. Change List(T) to List(U) where U is struct with @0 is of type T
-        - [x] Found Void list
-        - [x] Found Byte list
-        - [x] Found 2-Byte list
-        - [x] Found 4-Byte list
-        - [x] Found 8-Byte list
-        - [x] Found Data
-        - [x] Found List of Lists
-    3. [x] C++ allowed upgrades
-      - [x] Found composite list where pointer list was expected. Uses first pointer.
-      - [x] Found composite list where void list was expected. Uses first pointer
-      - [x] Found composite list where primitive list was expected. Asumes @0 of struct matches found list
-        - [x] Byte
-        - [x] 2 Bytes
-        - [x] 4 Bytes
-        - [x] 8 Bytes
-  2. [ ] Invalid
-    - [x] Found data-only composite list where pointer list was expected
-    - [x] Found primitive list where composite list was expected but first data field does not match primitive list
-      - [x] Found Void list
-      - [x] Found Byte list
-      - [x] Found 2 Byte list
-      - [x] Found 4 Byte list
-      - [x] Found 8 Byte list
-    - [x] Found composite list where bit list is expected
-    - [x] Found pointer-only composite list where primitive list was expected
-      - [x] Expected Void list
-      - [x] Expected Byte list
-      - [x] Expected 2 Byte list
-      - [x] Expected 4 Byte list
-      - [x] Expected 8 Byte list
-    - [x] Found list of pointers where data-only struct list was expected
-    - [ ] You cannot move an existing field into or out of an existing union
-    - [ ] You can not form a new union containing more than one existing field.
-4. [ ] Bad messages
-  1. [x] Message with missing segment
-  2. [x] Invalid capability pointer
-  3. [ ] Infinite looping struct pointers
-  4. [ ] Void list that fills memory
-  5. [ ] Inline composite list where tag is not a struct pointer
-  6. [ ] Inline composite list where size of struct in tag * element count is larger than list word count
-  7. [ ] List of zero size structs that fill memory
-  8. [ ] Root object is list pointer
-  9. [ ] Root object is far pointer
-  10. [ ] Root object is capability pointer
+
+### 3. Schema upgrades
+
+#### 1. Valid
+
+1. Canonical
+  - [x] Add field to existing struct
+  - [x] Add enumerant to existing enum
+  - [ ] Add method to interface
+  - [ ] Add new parameter to method (must be at end and have default value)
+  - [x] Replace field with union
+  - [x] Replace field with group
+  - [x] Make non-genric type generic
+  - [x] Add generic parameter to existing generic type
+2. Backwards compatible
+  - [x] Expected composite list found other list. Change List(T) to List(U) where U is struct with @0 is of type T
+    - [x] Found Void list
+    - [x] Found Byte list
+    - [x] Found 2-Byte list
+    - [x] Found 4-Byte list
+    - [x] Found 8-Byte list
+    - [x] Found Data
+    - [x] Found List of Lists
+3. C++ allowed upgrades
+  - [x] Found composite list where pointer list was expected. Uses first pointer.
+  - [x] Found composite list where void list was expected. Uses first pointer
+  - [x] Found composite list where primitive list was expected. Asumes @0 of struct matches found list
+    - [x] Byte
+    - [x] 2 Bytes
+    - [x] 4 Bytes
+    - [x] 8 Bytes
+
+
+#### 2. Invalid
+
+- [x] Found data-only composite list where pointer list was expected
+- [x] Found primitive list where composite list was expected but first data field does not match primitive list
+    - [x] Found Void list
+    - [x] Found Byte list
+    - [x] Found 2 Byte list
+    - [x] Found 4 Byte list
+    - [x] Found 8 Byte list
+- [x] Found composite list where bit list is expected
+- [x] Found pointer-only composite list where primitive list was expected
+    - [x] Expected Void list
+    - [x] Expected Byte list
+    - [x] Expected 2 Byte list
+    - [x] Expected 4 Byte list
+    - [x] Expected 8 Byte list
+- [x] Found list of pointers where data-only struct list was expected
+- [ ] You cannot move an existing field into or out of an existing union
+- [ ] You can not form a new union containing more than one existing field.
+
+
+### 4. Bad messages
+
+- [x] Message with missing segment
+- [x] Invalid capability pointer
+- [ ] Infinite looping struct pointers
+- [ ] Void list that fills memory
+- [ ] Inline composite list where tag is not a struct pointer
+- [ ] Inline composite list where size of struct in tag * element count is larger than list word count
+- [ ] List of zero size structs that fill memory
+- [ ] Root object is list pointer
+- [ ] Root object is far pointer
+- [ ] Root object is capability pointer
 
 ## Rebuilding messages
 
